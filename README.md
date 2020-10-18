@@ -14,6 +14,9 @@
   max(Comparator)
   forEach()
   toArray()
+  Stream.of()
+  
+  Convert array to stream.
  
 
 <code>
