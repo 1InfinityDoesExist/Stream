@@ -15,6 +15,13 @@
   forEach()
   toArray()
   Stream.of()
+  anyMatch()
+  distinct()
+  findFirst()
+  flatmap()
+  skip()
+  reduce()
+  summaryStatistics()
   
   Convert array to stream.
  
