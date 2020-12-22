@@ -49,9 +49,9 @@ class CustomizedSorting {
         System.out.println("Before Sorting : " + data);
         List<Integer> sortedData =
                         data.stream().sorted(
-                                        (obj1, obj2) -> (obj1 < obj2) ? 1 : (obj1 > obj2) ? -1 : 0)
+                                        (obj1, obj2) -> (obj1 < obj2) ? -1 : (obj1 > obj2) ? 1 : 0)
                                         .collect(Collectors.toList());
-        System.out.println("After Sorting : " + sortedData);
+        System.out.println("After Sorting :::::: " + sortedData);
         data.clear();
         sortedData.clear();
     }
